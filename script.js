@@ -12,7 +12,6 @@ function init() {
   }
   const source = document.querySelector("script[type='x-shader/x-fragment']").textContent
   canvas = document.createElement("canvas")
-  document.title = "😌"
   document.body.innerHTML = ""
   document.body.appendChild(canvas)
   document.body.style = "margin:0;touch-action:none;overflow:hidden"
